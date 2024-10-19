@@ -6,7 +6,7 @@ class father():
         print("this is father class")
 class son(grandfather,father):
     def method3(self):
-        print("this is odn class")
+        print("this is son class")
 
 object=son()
 object.method1() #accessing grandfather class by son's object
